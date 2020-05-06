@@ -1,0 +1,4 @@
+#Production context
+#Deploy from master
+[context.production]
+    command = "yarn install"
