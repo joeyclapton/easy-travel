@@ -8,11 +8,11 @@ function App() {
     return (
         <Router>
             <Switch>
-                <Route path="/home">
-                    <Home />
-                </Route>
                 <Route path="/cadastro">
                     <Register />
+                </Route>
+                <Route path="/">
+                    <Home />
                 </Route>
             </Switch>
         </Router>
