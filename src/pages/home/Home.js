@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import Card from "../../components/et-card/Card";
 import Icon from "../../components/et-icon/Icon";
 import S from "./Home-style";
+import Title from "../../components/et-title/Title";
 
 import planeIcon from "../../assets/icons/passagem-aerea.svg";
 import techIcon from "../../assets/icons/tecnologia.svg";
@@ -38,13 +39,17 @@ const Home = () => {
     const [showForm, changeVisibility] = useState(false);
     return (
         <S.container>
+            <Icon src="" />
+
             <S.header>
                 <Icon src={logo} height="35" />
                 <S.menuContainer>
                     <S.menuItem onClick={() => changeVisibility(true)}>
                         Login
                     </S.menuItem>
-                    <S.menuItem>Cadastrar</S.menuItem>
+                    <S.menuItem>
+                        <a href="/cadastro">Cadastrar</a>
+                    </S.menuItem>
                 </S.menuContainer>
             </S.header>
             <S.optionsContainer>
@@ -52,7 +57,9 @@ const Home = () => {
                     <Card key={index} data={data} />
                 ))}
             </S.optionsContainer>
-
+            <Title title="Easy Travel" />
+            <Title title="Easy Travel 2 " />
+            <Title title="Easy Travel 3" />
             <S.formContainer show={showForm}>
                 <S.form action="">
                     <Icon />
