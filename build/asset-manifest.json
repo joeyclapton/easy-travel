@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.eecd6027.chunk.css",
+    "main.js": "/static/js/main.34a4e199.chunk.js",
+    "main.js.map": "/static/js/main.34a4e199.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.67f36c45.js",
+    "runtime-main.js.map": "/static/js/runtime-main.67f36c45.js.map",
+    "static/js/2.efcb6608.chunk.js": "/static/js/2.efcb6608.chunk.js",
+    "static/js/2.efcb6608.chunk.js.map": "/static/js/2.efcb6608.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.d7463f4af364fee2cf31193b75baec9b.js": "/precache-manifest.d7463f4af364fee2cf31193b75baec9b.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.eecd6027.chunk.css.map": "/static/css/main.eecd6027.chunk.css.map",
+    "static/js/2.efcb6608.chunk.js.LICENSE.txt": "/static/js/2.efcb6608.chunk.js.LICENSE.txt",
+    "static/media/close.svg": "/static/media/close.2b3731eb.svg",
+    "static/media/key.svg": "/static/media/key.e2dddfe7.svg",
+    "static/media/landscape_1x.png": "/static/media/landscape_1x.f2517d44.png",
+    "static/media/landscape_2x.jpg": "/static/media/landscape_2x.44cb45d4.jpg",
+    "static/media/logo-lettering.svg": "/static/media/logo-lettering.ff5060d1.svg",
+    "static/media/mail.svg": "/static/media/mail.7d93a7e9.svg",
+    "static/media/passagem-aerea.svg": "/static/media/passagem-aerea.1cb5343d.svg",
+    "static/media/tecnologia.svg": "/static/media/tecnologia.eae8cd91.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.67f36c45.js",
+    "static/js/2.efcb6608.chunk.js",
+    "static/css/main.eecd6027.chunk.css",
+    "static/js/main.34a4e199.chunk.js"
+  ]
+}

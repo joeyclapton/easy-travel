@@ -57,9 +57,6 @@ const Home = () => {
                     <Card key={index} data={data} />
                 ))}
             </S.optionsContainer>
-            <Title title="Easy Travel" />
-            <Title title="Easy Travel 2 " />
-            <Title title="Easy Travel 3" />
             <S.formContainer show={showForm}>
                 <S.form action="">
                     <Icon />

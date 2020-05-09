@@ -44,6 +44,27 @@ const Styles = {
         color: #ffffff;
         font-size: 1.6rem;
         font-weight: 600;
+
+        transition: 0.4s all;
+
+        a {
+            cursor: pointer;
+            margin: 0 8px;
+            list-style: none;
+            color: #ffffff;
+            font-size: 1.6rem;
+            font-weight: 600;
+            text-decoration: none;
+            transition: 0.4s all;
+
+            &:hover {
+                color: #ed9f05;
+            }
+        }
+
+        &:hover {
+            color: #ed9f05;
+        }
     `,
     formContainer: styled.div.attrs((props) => ({
         display: props.show ? "flex" : "none",
