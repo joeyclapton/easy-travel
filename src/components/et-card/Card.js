@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import S from "./Card-style";
 import Icon from "../et-icon/Icon";
 
@@ -7,7 +9,7 @@ const Card = ({ data }) => {
         title,
         description,
         icon,
-        button: { action, label },
+        button: { route, label, disabled },
     } = data;
 
     return (
@@ -21,9 +23,11 @@ const Card = ({ data }) => {
             <div>
                 <S.description>{description}</S.description>
             </div>
-            <S.button onClick={action}>
-                <span>{label}</span>
-            </S.button>
+            <Link to={route}>
+                <S.button disabled={disabled}>
+                    <span>{label}</span>
+                </S.button>
+            </Link>
         </S.container>
     );
 };

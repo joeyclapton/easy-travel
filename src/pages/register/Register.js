@@ -54,18 +54,14 @@ const Register = () => {
                 <S.inputs>
                     <S.containerInput>
                         <label htmlFor="CEP">CEP</label>
-                        <input
-                            id="CEP"
-                            type="text"
-                            placeholder="Nome Completo"
-                        />
+                        <input id="CEP" type="text" placeholder="CEP" />
                     </S.containerInput>
                     <S.containerInput style={{ width: "80%" }}>
                         <label htmlFor="Endereço">Endereço</label>
                         <input
                             id="Endereço"
                             type="text"
-                            placeholder="Nome Completo"
+                            placeholder="Endereço"
                         />
                     </S.containerInput>
                 </S.inputs>
@@ -89,15 +85,22 @@ const Register = () => {
                         <input id="Senha" type="password" placeholder="Senha" />
                     </S.containerInput>
                     <S.containerInput style={{ width: "50%" }}>
-                        <label htmlFor="rpeat">Repetir senha</label>
+                        <label htmlFor="Repetir">Repetir senha</label>
                         <input
                             id="rpeat"
-                            type="text"
+                            type="password"
                             placeholder="Repetir senha"
                         />
                     </S.containerInput>
                 </S.inputs>
-                <button onClick={(e) => e.preventDefault()} type="submit">
+                <button
+                    onClick={(e) => {
+                        e.preventDefault();
+                        alert("Usuário cadastrado com sucesso");
+                        window.location.href = "http://localhost:3000/";
+                    }}
+                    type="submit"
+                >
                     Cadastrar
                 </button>
             </S.form>

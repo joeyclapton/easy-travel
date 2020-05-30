@@ -22,13 +22,18 @@ const Styles = {
         color: #ffffff;
         margin: 16px 0;
     `,
-    button: styled.button`
-        background: linear-gradient(
-                180deg,
-                rgba(245, 204, 112, 0.468) 21.35%,
-                rgba(255, 255, 255, 0) 100%
-            ),
-            #ed9f05;
+    button: styled.button.attrs((props) => ({
+        disabled: props.disabled
+            ? "#d2d2d2"
+            : `linear-gradient(
+            180deg,
+            rgba(245, 204, 112, 0.468) 21.35%,
+            rgba(255, 255, 255, 0) 100%
+        ),
+        #ed9f05;`,
+        cursor: props.disabled ? "default" : "pointer",
+    }))`
+        background: ${(props) => props.disabled};
         padding: 8px 16px;
         border-radius: 16px;
 
@@ -36,6 +41,7 @@ const Styles = {
             color: #024959;
             font-size: 14px;
         }
+        cursor: ${(props) => props.cursor};
     `,
     icon: styled.div`
         position: absolute;

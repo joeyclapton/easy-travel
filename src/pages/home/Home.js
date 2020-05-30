@@ -1,9 +1,9 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 import Card from "../../components/et-card/Card";
 import Icon from "../../components/et-icon/Icon";
 import S from "./Home-style";
-import Title from "../../components/et-title/Title";
 
 import planeIcon from "../../assets/icons/passagem-aerea.svg";
 import techIcon from "../../assets/icons/tecnologia.svg";
@@ -14,33 +14,32 @@ import logo from "../../assets/icons/logo-lettering.svg";
 
 const cards = [
     {
-        title: "Roteiro personalizado",
-        button: {
-            action: () => console.log("click"),
-            label: "Montar Roteiro",
-        },
-        description:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the",
-        icon: techIcon,
-    },
-    {
         title: "Roteiro Easy Travel",
         button: {
-            action: () => console.log("click"),
-            label: "Montar Roteiro",
+            route: "/roteiro-easy-travel",
+            label: "Selecionar roteiro"
         },
         description:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the",
-        icon: planeIcon,
+        icon: planeIcon
     },
+    {
+        title: "Roteiro personalizado",
+        button: {
+            route: "/",
+            label: "Em breve...",
+            disabled: true
+        },
+        description:
+            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the",
+        icon: techIcon
+    }
 ];
 
 const Home = () => {
     const [showForm, changeVisibility] = useState(false);
     return (
         <S.container>
-            <Icon src="" />
-
             <S.header>
                 <Icon src={logo} height="35" />
                 <S.menuContainer>
@@ -48,7 +47,7 @@ const Home = () => {
                         Login
                     </S.menuItem>
                     <S.menuItem>
-                        <a href="/cadastro">Cadastrar</a>
+                        <Link to="/cadastro">Cadastrar</Link>
                     </S.menuItem>
                 </S.menuContainer>
             </S.header>
@@ -88,9 +87,18 @@ const Home = () => {
                         />
                     </S.inputContainer>
                     <S.formFooter>
-                        <button type="submit">Entrar</button>
+                        <button
+                            type="button"
+                            onClick={() => {
+                                alert("Logado com sucesso!");
+                                changeVisibility(false);
+                            }}
+                        >
+                            Entrar
+                        </button>
                         <p>
-                            Não possui conta? <a href="#">Criar conta</a>
+                            Não possui conta?
+                            <a href="/cadastro">Criar conta</a>
                         </p>
                     </S.formFooter>
                 </S.form>

@@ -1,10 +1,11 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Work Sans", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-size: 10px;
+    letter-spacing: 1.4px;
 }
 input {
     outline: 0;

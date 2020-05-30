@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import bg from "../../assets/backgrounds/landscape_2x.jpg";
 
 const Styles = {
     container: styled.section`
@@ -7,8 +8,14 @@ const Styles = {
         justify-content: center;
         align-items: center;
         height: 100vh;
+        background: linear-gradient(rgba(2, 73, 89, 0.7), rgba(2, 73, 89, 0.7)),
+            url(${bg});
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
     `,
     form: styled.form`
+        background: #ffffff;
         border-radius: 12px;
         display: flex;
         flex-direction: column;
