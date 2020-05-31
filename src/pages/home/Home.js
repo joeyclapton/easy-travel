@@ -12,6 +12,10 @@ import keyIcon from "../../assets/icons/key.svg";
 import mailIcon from "../../assets/icons/mail.svg";
 import logo from "../../assets/icons/logo-lettering.svg";
 
+/**
+ * Código da página home
+ */
+
 const cards = [
     {
         title: "Roteiro Easy Travel",

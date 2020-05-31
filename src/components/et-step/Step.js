@@ -2,6 +2,11 @@ import React from "react";
 
 import S from "./Step-style";
 
+/**
+ * Componente responsável pelos STEP
+ * Attrs - {Object}
+ */
+
 const Step = ({ value, total, current }) => {
     const last = value + 1 === total;
     const isCurrent = value === current;

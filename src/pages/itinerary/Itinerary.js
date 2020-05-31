@@ -7,6 +7,10 @@ import Loading from "../../components/et-loading/Loading";
 import icon from "./whatsapp.png";
 import S from "./Itinerary-style";
 
+/**
+ * Código da página de roteiros easy travel
+ */
+
 const steps = [0, 1, 2, 3, 4];
 const data = [];
 const cards = {

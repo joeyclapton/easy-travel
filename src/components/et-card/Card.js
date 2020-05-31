@@ -4,12 +4,16 @@ import { Link } from "react-router-dom";
 import S from "./Card-style";
 import Icon from "../et-icon/Icon";
 
+/**
+ * Componente responsável pelos cards
+ * Attrs - {Object}
+ */
 const Card = ({ data }) => {
     const {
         title,
         description,
         icon,
-        button: { route, label, disabled },
+        button: { route, label, disabled }
     } = data;
 
     return (

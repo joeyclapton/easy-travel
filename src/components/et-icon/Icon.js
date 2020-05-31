@@ -1,5 +1,9 @@
 import React from "react";
 
+/**
+ * Componente que é um ícone
+ * Attrs - {Object}
+ */
 const Icon = ({ src, alt, width, height, action }) => {
     return (
         <img

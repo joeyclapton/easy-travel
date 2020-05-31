@@ -1,5 +1,10 @@
 import React from "react";
 import S from "./Register-style";
+
+/**
+ * Código da página de registro
+ */
+
 const Register = () => {
     return (
         <S.container>

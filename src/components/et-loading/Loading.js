@@ -1,6 +1,9 @@
 import React from "react";
 import "./Loading.css";
-
+/**
+ * Componente responsável pelos loading ultilizando SVG
+ * Attrs - {Object}
+ */
 const Loading = () => {
     return (
         <svg
