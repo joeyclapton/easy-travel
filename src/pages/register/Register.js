@@ -102,7 +102,8 @@ const Register = () => {
                     onClick={(e) => {
                         e.preventDefault();
                         alert("Usuário cadastrado com sucesso");
-                        window.location.href = "http://localhost:3000/";
+                        window.location.href =
+                            "https://easy-travel.netlify.app/";
                     }}
                     type="submit"
                 >

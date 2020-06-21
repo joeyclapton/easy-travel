@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 import Card from "../../components/et-card/Card";
 import Icon from "../../components/et-icon/Icon";
+import ConvertCurrency from "../../components/et-convert-currency/ConvertCurrency";
 import S from "./Home-style";
 
 import planeIcon from "../../assets/icons/passagem-aerea.svg";
@@ -30,9 +31,8 @@ const cards = [
     {
         title: "Roteiro personalizado",
         button: {
-            route: "/",
-            label: "Em breve...",
-            disabled: true
+            route: "/roteiro-personalizado",
+            label: "Selecionar roteiro"
         },
         description:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the",
@@ -46,6 +46,7 @@ const Home = () => {
         <S.container>
             <S.header>
                 <Icon src={logo} height="35" />
+                <ConvertCurrency />
                 <S.menuContainer>
                     <S.menuItem onClick={() => changeVisibility(true)}>
                         Login
@@ -55,6 +56,7 @@ const Home = () => {
                     </S.menuItem>
                 </S.menuContainer>
             </S.header>
+
             <S.optionsContainer>
                 {cards.map((data, index) => (
                     <Card key={index} data={data} />

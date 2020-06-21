@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0f27fb47e43aa0a937b9199d66f9a9c0",
+    "revision": "7de1d6fb94d241e23ceb48a532717123",
     "url": "/index.html"
   },
   {
-    "revision": "abfaed5c929448fa2335",
-    "url": "/static/css/main.bb6d53f6.chunk.css"
+    "revision": "6a897f32763a55964143",
+    "url": "/static/css/main.405d9e04.chunk.css"
   },
   {
-    "revision": "4eb43f18647c202a2898",
-    "url": "/static/js/2.731b4c9d.chunk.js"
+    "revision": "36d56805349eebd0a828",
+    "url": "/static/js/2.3aa40abb.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/static/js/2.731b4c9d.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.3aa40abb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "abfaed5c929448fa2335",
-    "url": "/static/js/main.299abdc7.chunk.js"
+    "revision": "6a897f32763a55964143",
+    "url": "/static/js/main.59539ac1.chunk.js"
   },
   {
     "revision": "166a6332ab571363508f",
@@ -42,6 +42,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ff5060d1acc1a047ed981faf48d29478",
     "url": "/static/media/logo-lettering.ff5060d1.svg"
+  },
+  {
+    "revision": "feb4ce10d39edb84915a652408bfa3cf",
+    "url": "/static/media/logo-mastercard-mobile.feb4ce10.svg"
   },
   {
     "revision": "7d93a7e9bdda6e9ef17ddf1885648d1a",

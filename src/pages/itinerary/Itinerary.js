@@ -73,28 +73,45 @@ const cards = {
     final: {
         cards: [
             {
-                title: "Barcelona",
+                title: "Nova York ",
                 image:
-                    "https://cdn.pixabay.com/photo/2019/01/28/14/43/barcelona-3960566__340.jpg",
-                action: () => {}
+                    "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRAv_-U8oySRogKl_hxbrch9H_U98ox3LL1BkHZ0To45DMr-66x&usqp=CAU",
+                action: () =>
+                    (window.location =
+                        "https://easy-travel.netlify.app/finalizar-compra"),
+                desc: "12 dias com amigos em Nova York"
             },
             {
-                title: "Praga",
+                title: "Belo Horizonte",
                 image:
-                    "https://cdn.pixabay.com/photo/2016/11/21/14/02/prague-1845560__340.jpg",
-                action: () => {}
+                    "https://lh3.googleusercontent.com/proxy/A6kcmOhPmqsDfWQcSEXJUoThF6k5dQwRIRtVz9EquwaE_cQmkKAlCRdZqdz1994rRoN0Yso6_5BcZ7I3DLiSETZNm0z86JgxO_3r1U-aDMwmlYJAdgmuf_GIU5ZHZZkEcq9i7WY81YATT79u8lAjnq4ECYiwC-VNDJ75bf0ZoY3W6GLuxw0oj03mokdq3LJxPX6Xi-BP9R1BepLD86w8F7BkN_rGqdzPAfCpZao",
+                action: () => {
+                    window.location =
+                        "https://easy-travel.netlify.app/finalizar-compra";
+                },
+                desc: "8 dias na capital mineira (BH) "
             },
             {
-                title: "Colômbia",
+                title: "Porto Seguro",
                 image:
-                    "https://cdn.pixabay.com/photo/2020/05/28/11/47/colombia-5230927_960_720.jpg",
-                action: () => {}
+                    "https://www.temporadalivre.com/blog-media/posts/cover/10170/size_800_onde-se-hospedar-em-porto-seguro-9791a34b.jpg",
+                action: () => {
+                    window.location =
+                        "https://easy-travel.netlify.app/finalizar-compra";
+                },
+                desc:
+                    "10 dias de praia e festas em Porto Seguro, Arraial d'Ajuda e Trancoso"
             },
             {
-                title: "Egito",
+                title: "Chapada dos veadeiros",
                 image:
-                    "https://cdn.pixabay.com/photo/2017/03/20/14/33/pyramids-2159286__340.jpg",
-                action: () => {}
+                    "https://www.seumochilao.com.br/wp-content/uploads/2016/09/onde-ficar-na-chapada-dos-veadeiros-1.jpg",
+                action: () => {
+                    window.location =
+                        "https://easy-travel.netlify.app/finalizar-compra";
+                },
+                desc:
+                    "8  dias de paz e autoconhecimento na linda Chapada dos Veadeiros"
             }
         ]
     }
@@ -241,6 +258,7 @@ const Itinerary = () => {
                                             setStep(currentStep + 1);
                                             setLoading(true);
                                         }}
+                                        desc={item.desc}
                                     />
                                     <img
                                         onClick={() =>

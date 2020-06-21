@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.bb6d53f6.chunk.css",
-    "main.js": "/static/js/main.299abdc7.chunk.js",
-    "main.js.map": "/static/js/main.299abdc7.chunk.js.map",
+    "main.css": "/static/css/main.405d9e04.chunk.css",
+    "main.js": "/static/js/main.59539ac1.chunk.js",
+    "main.js.map": "/static/js/main.59539ac1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.67f36c45.js",
     "runtime-main.js.map": "/static/js/runtime-main.67f36c45.js.map",
-    "static/js/2.731b4c9d.chunk.js": "/static/js/2.731b4c9d.chunk.js",
-    "static/js/2.731b4c9d.chunk.js.map": "/static/js/2.731b4c9d.chunk.js.map",
+    "static/js/2.3aa40abb.chunk.js": "/static/js/2.3aa40abb.chunk.js",
+    "static/js/2.3aa40abb.chunk.js.map": "/static/js/2.3aa40abb.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.e9bfc596257a679175bffb5008d1fb46.js": "/precache-manifest.e9bfc596257a679175bffb5008d1fb46.js",
+    "precache-manifest.0089dec8cbdb3eef7e832bde525b6310.js": "/precache-manifest.0089dec8cbdb3eef7e832bde525b6310.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.bb6d53f6.chunk.css.map": "/static/css/main.bb6d53f6.chunk.css.map",
-    "static/js/2.731b4c9d.chunk.js.LICENSE.txt": "/static/js/2.731b4c9d.chunk.js.LICENSE.txt",
+    "static/css/main.405d9e04.chunk.css.map": "/static/css/main.405d9e04.chunk.css.map",
+    "static/js/2.3aa40abb.chunk.js.LICENSE.txt": "/static/js/2.3aa40abb.chunk.js.LICENSE.txt",
     "static/media/close.svg": "/static/media/close.2b3731eb.svg",
     "static/media/key.svg": "/static/media/key.e2dddfe7.svg",
     "static/media/landscape_1x.png": "/static/media/landscape_1x.f2517d44.png",
     "static/media/landscape_2x.jpg": "/static/media/landscape_2x.44cb45d4.jpg",
     "static/media/logo-lettering.svg": "/static/media/logo-lettering.ff5060d1.svg",
+    "static/media/logo-mastercard-mobile.svg": "/static/media/logo-mastercard-mobile.feb4ce10.svg",
     "static/media/mail.svg": "/static/media/mail.7d93a7e9.svg",
     "static/media/maldives-3220702_960_720.webp": "/static/media/maldives-3220702_960_720.9ff01d7b.webp",
     "static/media/passagem-aerea.svg": "/static/media/passagem-aerea.1cb5343d.svg",
@@ -24,8 +25,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.67f36c45.js",
-    "static/js/2.731b4c9d.chunk.js",
-    "static/css/main.bb6d53f6.chunk.css",
-    "static/js/main.299abdc7.chunk.js"
+    "static/js/2.3aa40abb.chunk.js",
+    "static/css/main.405d9e04.chunk.css",
+    "static/js/main.59539ac1.chunk.js"
   ]
 }
